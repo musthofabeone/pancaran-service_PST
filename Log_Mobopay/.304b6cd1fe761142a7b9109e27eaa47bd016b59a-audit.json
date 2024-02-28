@@ -1,0 +1,60 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "Log_Mobopay\\.304b6cd1fe761142a7b9109e27eaa47bd016b59a-audit.json",
+    "files": [
+        {
+            "date": 1707730575758,
+            "name": "Log_Mobopay\\application-2024-02-12.log",
+            "hash": "87b12e9feb959f2f8ffbb3d34e9a62acbcce25cd8a3feecfb519079bd00ab00b"
+        },
+        {
+            "date": 1707757200003,
+            "name": "Log_Mobopay\\application-2024-02-13.log",
+            "hash": "8824a375bbcd57b4c835ca4d26364b63e7530243d29a53cb8c33fa76c4af21d9"
+        },
+        {
+            "date": 1707843600010,
+            "name": "Log_Mobopay\\application-2024-02-14.log",
+            "hash": "21c48d712de2818023ed81115da1152418be798f208b69e57beb48057f4ac1b9"
+        },
+        {
+            "date": 1707930000004,
+            "name": "Log_Mobopay\\application-2024-02-15.log",
+            "hash": "21f48b60cc888047fc9a452dc2b44120f257929a4ad8c18861a28e0082d7f4cc"
+        },
+        {
+            "date": 1708276006292,
+            "name": "Log_Mobopay\\application-2024-02-19.log",
+            "hash": "ac13585edac6897523bf424ded93cf87b98b7067ee1ac0dc118e811f56d7ba0e"
+        },
+        {
+            "date": 1708362000009,
+            "name": "Log_Mobopay\\application-2024-02-20.log",
+            "hash": "f062e08694b0f8ea4fff1e7768e89e857361bd3c997df75bf93adedd54cbb6a9"
+        },
+        {
+            "date": 1708448400002,
+            "name": "Log_Mobopay\\application-2024-02-21.log",
+            "hash": "77d95910b571c7b20d88a8b47cf4aef7f517dba2b7891331ea8d141cd60ecbeb"
+        },
+        {
+            "date": 1708534800002,
+            "name": "Log_Mobopay\\application-2024-02-22.log",
+            "hash": "c697729774516052e983730bbfb2ec48c5ffb131073af1478169b68aa3af226f"
+        },
+        {
+            "date": 1708621200005,
+            "name": "Log_Mobopay\\application-2024-02-23.log",
+            "hash": "7b3e59954756b9945cd55319831e3bc79f1912f0707957562b774f2f533b3286"
+        },
+        {
+            "date": 1708707600002,
+            "name": "Log_Mobopay\\application-2024-02-24.log",
+            "hash": "ce951dc89216997650876fc7344031152597e63471717aca0e2bcd8943a0a076"
+        }
+    ],
+    "hashType": "sha256"
+}
