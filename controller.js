@@ -1216,7 +1216,6 @@ function signature(message) {
   var Response_ = generateMessageBodySignature(message, privateKey)
   timeout = true;
   _signature = Response_
-
   return _signature
 }
 
