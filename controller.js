@@ -1211,6 +1211,26 @@ exports.get_Signature = function (req, res) {
   logger.info('Signature: ' + Response_)
 }
 
+function signature(message) {
+  let _signature
+  var Response_ = generateMessageBodySignature(message, privateKey)
+  timeout = true;
+  _signature = Response_
+
+  return _signature
+}
+
+function generateMessageBodySignature(message, privateKey) {
+  try {
+    const sign = crypto.createSign('RSA-SHA1');
+    sign.update(message);
+    sign.end();
+    const signature = sign.sign(privateKey);
+    return signature.toString('base64')
+  } catch (error) {
+    logger.error(error);
+  }
+}
 
 exports.get_Token = function (req, res) {
   var token = jwt.sign({ foo: 'bar' }, 'shhhhh');
